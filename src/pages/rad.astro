@@ -1,0 +1,55 @@
+---
+import '@fontsource-variable/montserrat';
+import BayerLogo from '../svg/bayer.astro';
+import EventLogo from '../svg/evento-rad.astro';
+import Row from '../ui/Row.astro';
+import RowDay from '../ui/RowDay.astro';
+import RowHeadline from '../ui/RowHeadline.astro';
+import RowEat from '../ui/RowEat.astro';
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Rad in Solutions - Transformando el mañana | Bayer</title>
+	</head>
+	<body class="font-montserrat bg-body bg-center bg-cover min-h-screen">
+		<div class="container mx-auto py-4">
+			<div class="flex justify-center relative">
+				<div class="w-[200px] md:w-[300px]">
+					<EventLogo />
+				</div>
+				<div class="w-[50px] md:w-[75px] absolute right-2">
+					<BayerLogo />
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 mx-auto py-4 px-2">
+				<!-- <RowDay day="Viernes 3 de Mayo" />
+				<Row label="Cóctel de bienvenida" hour="6:00 p.m." isFirst={true} /> -->
+				<RowDay day="Sábado 4 de mayo" />
+				<Row label="Bienvenida" hour="9:00 a.m." isFirst={true} />
+				<Row label="Bayer Radiología en PACA" hour="9:05 a.m." />
+				<RowHeadline label="Módulo Tomografía" />
+				<Row label="Workflow Solutions - eficiencias en el flujo de trabajo en Radiología" hour="9:30 a.m." isFirst={true} />
+				<Row label="“Estudio de evidencia real de indicadores de costo y rendimiento de Stellant, Kit Multipaciente y Ultravist en TC desarrollado en Colombia”" hour="10:20 a.m." />
+				<Row label="“Mejoras en calidad y eficiencia en centros de Radiología”" hour="10:50 a.m." />
+				<RowEat label="Coffee Break" hour="11:15 a.m." />
+				<RowHeadline label="Módulo Resonancia Magnética" />
+				<Row label="“X-Talk Valor de la Resonancia Magnética Cardíaca”" hour="11:30 a.m." isFirst={true} />
+				<Row label="Cuidando al paciente, medios de contrastes lineales vs macrocíclicos" hour="12:00 m.d." />
+				<Row label="Importancia del uso de Resonancia de próstata para el diagnóstico y manejo del paciente con CA de próstata" hour="12:20 p.m." />
+				<RowEat label="Almuerzo" hour="1:15 p.m." />
+				<Row label="“Inyección mecánica para optimizar calidad de imagen y eficiencia operativa”" hour="3:15 p.m." isFirst={true} />
+				<RowHeadline label="Soluciones Bayer" />
+				<Row label="Importancia de análisis de data e impacto dentro de una institución" hour="3:45 p.m." isFirst={true} />
+				<Row label="“Programa de transformación Bayer”" hour="4:15 p.m." />
+				<Row label="“Bayer Experience, evolucionando y co-creando con nuestros clientes”" hour="4:35 p.m." />
+				<Row label="Pensamiento estratégico de Bayer para ajustarse a las necesidades de los clientes" hour="4:55 p.m." />
+				<RowEat label="Cierre" hour="5:25 p.m." />
+			</div>
+		</div>
+	</body>
+</html>
