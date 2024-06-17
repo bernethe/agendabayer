@@ -1,0 +1,21 @@
+---
+import { countries } from '../_globals.js';
+const { headline='', speakers=[] } = Astro.props;
+---
+<div class="bg-evblue rounded-tl-3xl rounded-br-3xl p-4 flex flex-col">
+	{ headline !== '' ? <h3 class="font-bold text-lg">{headline}</h3> : <></> }
+	<div class="flex-1">
+		<slot />
+	</div>
+	<div class="flex flex-col">
+		{
+			speakers.length === 0 ? '' : speakers.map( (i) => <div class="flex items-center">
+				<img src={countries[i.country].flag} alt={ `Flag of ${countries[i.country].name}` } class="w-6 h-6" />
+				<p class="flex-1 pl-4">
+					{i.name}<br />
+					<small>{i.position}</small>
+				</p>
+			</div> )
+		}
+	</div>
+</div>

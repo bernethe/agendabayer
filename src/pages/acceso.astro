@@ -1,0 +1,65 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import AccessJson from '../json/access.json';
+import DailyJournalByHotels from '../interface/DailyJournalByHotels.astro';
+import WorkshopSessionSnippet from '../interface/WorkshopSessionSnippet.astro';
+---
+<MainLayout title='Agenda Bayer' desc='' logo={2}>
+	{ AccessJson.map( item => <DailyJournalByHotels {...item} /> ) }
+	<h2 class="text-evblue font-bold text-xl px-4 sm:px-0">WORKSHOP SESSION</h2>
+	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-0">
+		<WorkshopSessionSnippet
+            headline="Health Management Session 1"
+			speakers={
+				[
+					{
+						"name": "Dr. Rafael Munerato de Almeida",
+						"position": "",
+						"country": "bra"
+					}
+				]
+			}
+		>Optimizing HealthCare Use of Resources (HCRU): Avoidable Costs and the effect of multidisciplinary goups in clinical outcomes.</WorkshopSessionSnippet>
+		<WorkshopSessionSnippet
+            headline="Health Management Session 2"
+			speakers={
+				[
+					{
+						"name": "Dr. Natalia Guarin",
+						"position": "",
+						"country": "col"
+					}
+				]
+			}
+		>How to manage Health Risk: management of oncological cohorts. Workshop.</WorkshopSessionSnippet>
+		<WorkshopSessionSnippet
+            headline="Health Management Session 3"
+			speakers={
+				[
+                    {
+						"name": "Dr. Claudia A. López",
+						"position": "",
+						"country": "col"
+					},
+                    {
+						"name": "Dr. Manuel R. Roa",
+						"position": "",
+						"country": "col"
+					}
+				]
+			}
+		>Evaluation of Health Technologies by Value. GRACE Methodology Workshop</WorkshopSessionSnippet>
+		<WorkshopSessionSnippet
+            headline="Health Management Session 4"
+			speakers={
+				[
+					{
+						"name": "Dr. Rafael Munerato de Almeida",
+						"position": "",
+						"country": "bra"
+					}
+				]
+			}
+		>Discussion Panel: Value Based Agreements as a tool to streamline reimbursement in emerging economies.</WorkshopSessionSnippet>
+	</div>
+</MainLayout>

@@ -1,22 +1,71 @@
 ---
-import '@fontsource-variable/montserrat';
-import BayerLogo from '../svg/bayer.astro';
+import MainLayout from '../layouts/MainLayout.astro';
+import MedicalJson from '../json/medical.json';
+import DailyJournal from '../interface/DailyJournal.astro';
+import WorkshopSessionSnippet from '../interface/WorkshopSessionSnippet.astro';
 ---
-
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>AGENDA | Bayer</title>
-	</head>
-	<body class="font-montserrat bg-center bg-cover min-h-screen flex justify-center items-center">
-		<div>
-			<div class="w-[50px] md:w-[75px] mx-auto">
-				<BayerLogo />
-			</div>
-			<p class="mt-4">En Construcción</p>
-		</div>
-	</body>
-</html>
+<MainLayout title='Agenda Bayer' desc=''>
+	{ MedicalJson.map( item => <DailyJournal {...item} /> ) }
+	<h2 class="text-evblue font-bold text-xl px-4 sm:px-0">WORKSHOP SESSION</h2>
+	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-0">
+		<WorkshopSessionSnippet
+			speakers={
+				[
+					{
+						"name": "Dr. Ivan Bustillo",
+						"position": "Medical Oncologist",
+						"country": "col"
+					},
+					{
+						"name": "Dr. Amit Bahl",
+						"position": "Urological Oncologist",
+						"country": "gbr"
+					}
+				]
+			}
+		>Challenging mHSPC cases</WorkshopSessionSnippet>
+		<WorkshopSessionSnippet
+			speakers={
+				[
+					{
+						"name": "Dr. Diego Barreiro",
+						"position": "Urological Oncologist",
+						"country": "arg"
+					},
+					{
+						"name": "Dr. Dionisio Flores",
+						"position": "Medical Oncologist",
+						"country": "crc"
+					}
+				]
+			}
+		>Best practices in long term management of advanced prostate cancer</WorkshopSessionSnippet>
+		<WorkshopSessionSnippet
+			speakers={
+				[
+					{
+						"name": "Dr. Paulo Lages",
+						"position": "Medical Oncologist",
+						"country": "bra"
+					}
+				]
+			}
+		>Challenging CRPC cases</WorkshopSessionSnippet>
+		<WorkshopSessionSnippet
+			speakers={
+				[
+					{
+						"name": "Dr. Maria Isabel Enriquez",
+						"position": "Clinical Oncologist",
+						"country": "mex"
+					},
+					{
+						"name": "Dr. Breno Dauster",
+						"position": "Urologist",
+						"country": "bra"
+					}
+				]
+			}
+		>Patient-centered care: What are their main concerns?</WorkshopSessionSnippet>
+	</div>
+</MainLayout>

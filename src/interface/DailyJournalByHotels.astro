@@ -1,0 +1,16 @@
+---
+import DayHeadline from './DayHeadline.astro';
+import RowHeadline from './RowHeadline.astro';
+import Row from './Row.astro';
+const { day, month, date, sup, journal } = Astro.props;
+---
+<div class="mb-12">
+	<DayHeadline day={day} month={month} date={date} sup={sup} />
+	{
+		journal.map( ({hotel, journalSnippets}) => <>
+			<h2 class="text-2xl font-bold text-evblue mt-8 mb-4 italic">{hotel}</h2>
+			<RowHeadline />
+			{ journalSnippets.map( (item, index) => <Row {...item} isFirst={ index === 0 } /> ) }
+		</> )
+	}
+</div>

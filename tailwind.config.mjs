@@ -4,19 +4,21 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				body: "url('/src/assets/bg.webp')",
+				body: "url('/src/assets/bg-bayer.webp')",
+				"headline-day": "url('/src/assets/cintillo-dia.webp')",
 			},
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
 				white: '#fff',
 				black: '#000',
-				blue: '#002B4A',
-				sky: '#B8CAD8',
-				aquablue01: '#0E588B',
-				aquablue02: '#3BC9D9',
+				aqua: '#20BCFB',
+				sky: '#698CBA',
+				blue: '#095281',
+				green: '#1B645C',
+				evblue: '#12384e',
 				gray: {
-					default: '#f3f4f6',
+					DEFAULT: '#f3f4f6',
 					50: '#f9fafb',
 					100: '#f3f4f6',
 					200: '#e5e7eb',
@@ -27,10 +29,10 @@ export default {
 					700: '#374151',
 					800: '#1f2937',
 					900: '#111827'
-				}
+				},
 			},
 			fontFamily: {
-				montserrat: ['Montserrat Variable', 'sans-serif'],
+				body: ['Montserrat Variable', 'sans-serif'],
 			},
 		},
 	},
