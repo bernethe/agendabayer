@@ -8,7 +8,7 @@ const { day, month, date, sup, journal } = Astro.props;
 	<DayHeadline day={day} month={month} date={date} sup={sup} />
 	{
 		journal.map( ({hotel, journalSnippets}) => <>
-			<h2 class="text-2xl font-bold text-evblue mt-8 mb-4 italic">{hotel}</h2>
+			<h2 class="text-2xl font-bold text-evblue mt-8 mb-4 italic uppercase">{hotel}</h2>
 			<RowHeadline />
 			{ journalSnippets.map( (item, index) => <Row {...item} isFirst={ index === 0 } /> ) }
 		</> )

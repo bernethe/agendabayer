@@ -3,7 +3,7 @@ import { countries } from '../_globals.js';
 const { headline='', speakers=[] } = Astro.props;
 ---
 <div class="bg-evblue rounded-tl-3xl rounded-br-3xl p-4 flex flex-col">
-	{ headline !== '' ? <h3 class="font-bold text-lg">{headline}</h3> : <></> }
+	{ headline !== '' ? <h3 class="font-bold text-lg uppercase">{headline}</h3> : <></> }
 	<div class="flex-1">
 		<slot />
 	</div>

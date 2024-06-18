@@ -146,13 +146,13 @@
 						"isReverse": 1
 					},
 					{
-						"time": "13:30-14:20",
+						"time": "13:30-14:10",
 						"topic": "Health Management Session 3",
 						"speakers": [],
 						"isReverse": 1
 					},
 					{
-						"time": "14:20-15:10",
+						"time": "14:10-15:10",
 						"topic": "Health Management Session 4",
 						"speakers": [],
 						"isReverse": 1
@@ -185,9 +185,9 @@
 						"topic": "What lies ahead in for mCRPC?",
 						"speakers": [
 							{
-								"name": "Dr. Dionisio Flores",
+								"name": "Dr. Miguel Fuentes",
 								"position": "Medical Oncologist",
-								"country": "crc"
+								"country": "mex"
 							}
 						],
 						"isReverse": 0
