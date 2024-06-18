@@ -4,7 +4,7 @@ import MedicalJson from '../json/medical.json';
 import DailyJournal from '../interface/DailyJournal.astro';
 import WorkshopSessionSnippet from '../interface/WorkshopSessionSnippet.astro';
 ---
-<MainLayout title='Agenda Bayer' desc=''>
+<MainLayout title='Agenda Bayer' footCode="PP-PFM-ONC-AR-0002-1">
 	{ MedicalJson.map( item => <DailyJournal {...item} /> ) }
 	<h2 class="text-evblue font-bold text-xl px-4 sm:px-0">WORKSHOP SESSION</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-0">

@@ -4,7 +4,7 @@ import AccessJson from '../json/access.json';
 import DailyJournalByHotels from '../interface/DailyJournalByHotels.astro';
 import WorkshopSessionSnippet from '../interface/WorkshopSessionSnippet.astro';
 ---
-<MainLayout title='Agenda Bayer' desc=''>
+<MainLayout title='Agenda Bayer' footCode="PP-PF-ONC-AR-0258-1">
 	{ AccessJson.map( item => <DailyJournalByHotels {...item} /> ) }
 	<h2 class="text-evblue font-bold text-xl px-4 sm:px-0">HEALTH MANAGEMENT SESSIONS</h2>
 	<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-0">
