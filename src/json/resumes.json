@@ -1,61 +1,76 @@
 [
 	{
+		"id": 1,
 		"name": "Dr. Mauricio Grisales",
 		"resume": "El Dr Grisales es médico y oftalmólogo de la Universidad CES en Medellín. Retinólogo del Instituo Docente de Especialidades Oftalmológicas en Maracaibo, Venezuela. Actualmente es Retinólogo de la Clínica Sandiego y la Clínica Santa Lucia de Medellín y es el Presidente electo de la Asociación Colombiana de Retina y Vítreo."
 	},
 	{
+		"id": 2,
 		"name": "Dr. Michael Stewart",
 		"resume": "El Dr. Michael W. Stewart se graduó con honores en química de Harvard College en Cambridge, Massachusetts. Es médico de la Universidad McGill en Montreal, Quebec. Oftalmologo de la Universidad de Emory en Atlanta, Georgia. Sub especialista re Retina del Touro Infirmary en Nueva Orleans, Luisiana, y en la Universidad de California. Actuamente es presidente del Departamento de Oftalmología en la Clínica Mayo en Jacksonville, Florida."
 	},
 	{
+		"id": 3,
 		"name": "Dra. Ingrid Pita",
 		"resume": "La Dra Pita es oftalmóloga y retinóloga de la Fundación Hospital Nuestra Señora de la Luz. Es observership en oncología intraocular del Hospital Universitario La Paz, Madrid.  Fellow of the International Council of Ophthalmology. Tiene una Maestría en dirección de organizaciones en salud, egresada de la Universidad Tecnológica de México. Actualmente es Médico adscrito y sub-jefe de enseñanza de retina y vítreo en Hospital Nuestra Señora de la Luz."
 	},
 	{
+		"id": 4,
 		"name": "Dr. Ivan Dario González",
 		"resume": "El Dr Iván González es médico cirujano, Magister en Administración de Salud de la Universidad Javeriana. Recientemente ocupó el cargo de Viceministro de Salud Pública y estuvo encargado como Ministro de Salud en la fase de preparación de la Pandemia COVID-19 en el Ministerio de Salud y Protección Social de Colombia."
 	},
 	{
+		"id": 5,
 		"name": "Dr. John Kitchens",
 		"resume": "El Dr John W. Kitchens es médico de la Escuela de Medicina de la Universidad de Indiana. Oftalmólogo de la  universidad de Iowa. Sub especialista en retina y vitreo del Bascom Palmer Eye Institute en Miami, actuamente es retinologo e investigador asociado del Retina Associates of Kentucky"
 	},
 	{
+		"id": 6,
 		"name": "Dr. Andres Bastien",
 		"resume": "El Dr Bastien es médico, oftalmólogo y retinólogo de la Universidad de Buenos Aires. Actualmente es Jefe del Sector Retina del Servicio de oftalmólogia del Hospital Italiano de Buenos Aires y es miembro fundador y ex presidente de SARyV."
 	},
 	{
+		"id": 7,
 		"name": "Dr. Hugo Ocampo",
 		"resume": "El Dr Ocampo es oftalmólogo y retinólogo de la Universidad el Valle, Colombia. Tiene un énfasis en manejo de trauma ocular a través de la APTO (Asociación Panamericana de Trauma Ocular). Expresidente de la APTO y de ACOREV. Actualmente es retinólogo de la Clínica Oftalmológica de Cali y la Fundación Valle de Lili."
 	},
 	{
+		"id": 8,
 		"name": "Jorge Martínez",
 		"resume": "Jorge Martínez es Ingeniero Industrial, empresario, actualmente es CEO de la clínica oftalmológica del Caribe, experto en innovación y emprendimiento. Especialista en gerencia de la calidad y auditoria en salud con MBA en administración de empresas y en mercadeo. Es participante del workshop de lideres de salud en la universidad de Harvard."
 	},
 	{
+		"id": 9,
 		"name": "Dr. Thiago Cabral",
 		"resume": "El Dr Cabral es oftalmólogo del Instituto de Asistencia Medica al Servicio Publico Estatal en Sao Paulo (IAMSPE), retinólogo de la Universidad de Sao Paulo y del New York ear and eye infirmary, oncólogo ocular y especialista en uveítis y VIH de la Universidad Federal de Sao Paulo (UNIFESP). Master en oftalmología de la IAMSPE SP, MBA de la UNIFESP y tiene un doctorado en angiogenesis ocular de la UNIFESP con postdctorado en retina y terapia génica de la Universidad de Columbia y de la UNIFESP. Actualmente es profesor adjunto y retinologo de la Universidad Federal del Espiritú Santo."
 	},
 	{
+		"id": 10,
 		"name": "Dr. Andrés Lasave",
 		"resume": "El Dr Lasave es especialista en Retina y Uveitis con una amplia formación  en Venezuela, Colombia y Boston. Actualmente es investigador principal de Pan American Collaborative Retina Study Group y desempeña su práctica en el Servicio de Retina de la Clínica Privada de Ojos de Mar del Plata, Argentina."
 	},
 	{
+		"id": 11,
 		"name": "Dra. Hildegard Piñeros",
 		"resume": "La Dra Hildegard Piñeros es Médica de la Universidad del norte, oftalmóloga de La Universidad San Martín y retinóloga de la Clínica y Fundación Oftalmológica del Caribe en Barranquilla, Colombia y del Centro de cirugía oftalmologica en Caracas. Docente del programa de Oftalmología y la Sub Especialidad de Retina y Vitreo de la Clínica y Fundación Oftlmológica del Caribe"
 	},
 	{
+		"id": 12,
 		"name": "Dr. David Eichenbaum ",
 		"resume": "El Dr. David Eichenbaum es Médico de la Universidad del Sur de Florida en Tampa. Oftalmólogo de la Universidad del Sur de Florida. Sub especialista en retina de la Universidad de Tufts en Boston. Actualmente es director de investigación, Retina Vitreous Associates of Florida, Profesor Asociado Colaborador, Morsani College of Medicine en la Universidad del Sur de Florida."
 	},
 	{
+		"id": 13,
 		"name": "Dr. Fernando Penha",
 		"resume": "El Dr Penha es medico graduado de La Universidade do Vali do Itajai. Es oftalmólogo, retinólogo y phd de La Universidad Federal de Sao Paolo y tiene un postdoctorado de la Universdad de Miami. Actualmente es profesor de retina en la Universidad de Regional de Blumenau y retinólogo de Hospital Dia de Visao."
 	},
 	{
+		"id": 14,
 		"name": "Dr. Rene Cano",
 		"resume": "El Dr Cano es médico de la UNAM, oftalmólogo del centro médico nacional IMSS y retinólogo de Scheie eye institute. Actualmente es médico adscrito al servicio de retina en el Hospital Conde de Valenciana. Fue director general del Hospital Conde de Valenciana, presidente de la Sociedad Mexicana de Oftalmología y del Consejo Mexicano de Oftalmología."
 	},
 	{
+		"id": 15,
 		"name": "Dr. Juan Manuel Jiménez Sierra",
 		"resume": "El Dr Jimenez es oftalmólogo. Retinólogo y espcialista en electrofisología de la University of Southern California en el Estelle Doheny Eye Institute. Ganador de varios premios en el área, autor de varias publicaciones y miembro de numerosos sociedades nacionales e internacionales. Actualmente es el Jefe del Departamento de Electrofisiología de Retina y Médico Adscrito del Departamento de Cirugía de Retina y Vítreo en (APEC)."
 	}
