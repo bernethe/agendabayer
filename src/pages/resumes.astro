@@ -1,7 +1,21 @@
 ---
-import Home from '../components/pages/Home';
 import MainLayout from '../layouts/MainLayout.astro';
+import resumes from '../json/resumes.json';
 ---
 <MainLayout title='Agenda Bayer'>
-	<h1>Under Construction / En Constucción</h1>
+	<header class="bg-header bg-center bg-no-repeat bg-cover aspect-[50/23] flex justify-center items-end pb-4">
+		<h1 class='font-bold italic text-3xl text-blue text-center'>SPEAKERS</h1>
+	</header>
+	<div class="container mx-auto">
+		{
+			resumes.map( item => <div class="md:flex py-24">
+				<div class="md:w-1/3">{ item.name }</div>
+				<div class="md:w-2/3">{item.resume}</div>
+			</div> )
+		}
+		<div class="my-8 text-sm">
+			<p class="mb-2">MA-AFL_8mg-AR-0003-1  |  Jul 2024</p>
+			<p class="mb-2">Material Técnico/Científico dirigido exclusivamente a Profesionales de la salud en capacidad de prescribir medicamentos. Si desea informar o reportar un evento adverso o un reclamo técnico de producto asociado a un producto Bayer, por favor, póngase en contacto con su médico o profesional de la salud, su autoridad sanitaria local y/o dirija sus comentarios en: https://safetrack-public.bayer.com/</p>
+		</div>
+	</div>
 </MainLayout>
