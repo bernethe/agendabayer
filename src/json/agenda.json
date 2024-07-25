@@ -1,6 +1,7 @@
 [
 	{
 		"day": {
+			"slug": "20240726",
 			"es": "Viernes 26 de julio",
 			"en": "Friday, July 26th"
 		},
@@ -284,7 +285,7 @@
 					{
 						"name": "Dra. Ingrid Pita",
 						"country": "mex",
-						"isBayer": 1
+						"isBayer": 0
 					}
 				]
 			},
@@ -330,7 +331,7 @@
 					{
 						"name": "Dra. Ingrid Pita",
 						"country": "mex",
-						"isBayer": 1
+						"isBayer": 0
 					},
 					{
 						"name": "Dr. Rene Cano",
@@ -351,15 +352,6 @@
 						"name": "Dr. Oscar Peñuela",
 						"country": "col",
 						"isBayer": 1
-					},
-					{
-						"hour": "19:00",
-						"kind": 1,
-						"name": {
-							"es": "Cena",
-							"en": "Networking Dinner"
-						},
-						"speakers": []
 					}
 				]
 			}
@@ -367,6 +359,7 @@
 	},
 	{
 		"day": {
+			"slug": "20240727",
 			"es": "Sábado 27 de julio",
 			"en": "Saturday, July 27th"
 		},
@@ -454,7 +447,7 @@
 					{
 						"name": "Dr. Jorge Martínez",
 						"country": "col",
-						"isBayer": 1
+						"isBayer": 0
 					}
 				]
 			},
@@ -467,9 +460,9 @@
 				},
 				"speakers": [
 					{
-						"name": "Dr. Jorge Martínez",
+						"name": "Juan Sebastian Salcedo",
 						"country": "col",
-						"isBayer": 0
+						"isBayer": 1
 					}
 				]
 			},
