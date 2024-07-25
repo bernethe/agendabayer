@@ -4,19 +4,16 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				body: "url('/src/assets/bg-bayer.webp')",
-				"headline-day": "url('/src/assets/cintillo-dia.webp')",
+				header: "url('/src/assets/header-img.webp')",
 			},
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
 				white: '#fff',
 				black: '#000',
-				aqua: '#20BCFB',
-				sky: '#698CBA',
-				blue: '#095281',
+				sky: '#69E1FD',
+				blue: '#00395C',
 				green: '#1B645C',
-				evblue: '#12384e',
 				gray: {
 					DEFAULT: '#f3f4f6',
 					50: '#f9fafb',

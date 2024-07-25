@@ -1,0 +1,533 @@
+[
+	{
+		"day": {
+			"es": "Viernes 26 de julio",
+			"en": "Friday, July 26th"
+		},
+		"schedule": [
+			{
+				"hour": "8:00",
+				"kind": 1,
+				"name": {
+					"es": "Apertura",
+					"en": "Event opening"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Juan Sebastian Franco",
+						"country": "col",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"kind": 2,
+				"name": {
+					"es": "AFLIBERCEPT 2 mg EXPERIENCIAS en LA VIDA REAL",
+					"en": "AFLIBERCEPT 2 mg REAL-LIFE EXPERIENCES"
+				}
+			},
+			{
+				"hour": "8:45",
+				"kind": 1,
+				"name": {
+					"es": "Introducción",
+					"en": "Keynote Address"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Juliana Muñoz",
+						"country": "col",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "8:50",
+				"kind": 1,
+				"name": {
+					"es": "Estatus actual de la Retinopatía Diabética en Latinoamérica: carga de la enfermedad y perspectivas para los pacientes.",
+					"en": "Current status of Diabetic Retinopathy in Latin America: burden of the disease and perspectives for patients."
+				},
+				"speakers": [
+					{
+						"name": "Dr. Mauricio Grisales",
+						"country": "col",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "9:10",
+				"kind": 1,
+				"name": {
+					"es": "La impronta de aflibercept 2 mg en el manejo de las patologías maculares: resultados de ensayos clínicos y de vida real",
+					"en": "The imprint of aflibercept 2 mg in the management of macular pathologies: results of clinical and real-life trials"
+				},
+				"speakers": [
+					{
+						"name": "Dr. John Kitchens",
+						"country": "usa",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "9:35",
+				"kind": 1,
+				"name": {
+					"es": "Posicionamiento de aflibercept 2 mg frente a otras opciones terapéuticas.",
+					"en": "Positioning of aflibercept 2 mg compared to other therapeutic options"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Thiago Cabral",
+						"country": "bra",
+						"isBayer": 0
+					},
+					{
+						"name": "Dr. Fernando Penha",
+						"country": "bra",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "10:00",
+				"kind": 1,
+				"name": {
+					"es": "Discusión de expertos",
+					"en": "Expert discussion"
+				},
+				"speakers": []
+			},
+			{
+				"hour": "10:20",
+				"kind": 1,
+				"name": {
+					"es": "Coffe break",
+					"en": "Networking Coffe Break"
+				},
+				"speakers": []
+			},
+			{
+				"kind": 2,
+				"name": {
+					"es": "EL PUNTO DE INFLEXIÓN DE AFLIBERCEPT",
+					"en": "THE TURNING POINT WITH AFLIBERCEPT"
+				}
+			},
+			{
+				"hour": "10:50",
+				"kind": 1,
+				"name": {
+					"es": "Introducción",
+					"en": "Keynote Address"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Caroll Delgado",
+						"country": "col",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "10:55",
+				"kind": 1,
+				"name": {
+					"es": "El racional detrás de Aflibercept 8 mg",
+					"en": "The rationale behind Aflibercept 8 mg"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Michael Stewart",
+						"country": "usa",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "11:15",
+				"kind": 1,
+				"name": {
+					"es": "Aflibercept 8 mg: Punto de inflexión en el tratamiento de patologías maculares",
+					"en": "Aflibercept 8 mg: Turning point in the treatment of macular pathologies"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Michael Stewart",
+						"country": "usa",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "11:55",
+				"kind": 1,
+				"name": {
+					"es": "¿Qué desenlaces medir con Aflibercept 8 mg y cuándo es importante medirlos?",
+					"en": "What outcomes to measure with Aflibercept 8 mg and when is it important to measure them?"
+				},
+				"speakers": [
+					{
+						"name": "Dr. John Kitchens",
+						"country": "usa",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "12:25",
+				"kind": 1,
+				"name": {
+					"es": "Discusión de expertos",
+					"en": "Expert discussion"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Michael Stewart",
+						"country": "usa",
+						"isBayer": 0
+					},
+					{
+						"name": "Dr. John Kitchens",
+						"country": "usa",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "12:45",
+				"kind": 1,
+				"name": {
+					"es": "Almuerzo",
+					"en": "Networking Lunch"
+				},
+				"speakers": []
+			},
+			{
+				"kind": 2,
+				"name": {
+					"es": "TRATAR Y EXTENDER: DE LA TEORÍA A LA PRÁCTICA",
+					"en": "TREAT AND EXTEND: FROM THEORY TO PRACTICE"
+				}
+			},
+			{
+				"hour": "14:15",
+				"kind": 1,
+				"name": {
+					"es": "Apertura",
+					"en": "Keynote Address"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Florencia Englebert",
+						"country": "arg",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "14:20",
+				"kind": 1,
+				"name": {
+					"es": "Introducción a los esquemas de tratamiento con antiangiogénicos",
+					"en": "Introduction to antiangiogenic treatment regimens"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Andrés Bastien",
+						"country": "arg",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "14:30",
+				"kind": 1,
+				"name": {
+					"es": "Perfiles de pacientes para tratar y extender con Aflibercept 2 mg",
+					"en": "Patient profiles to treat and extend with Aflibercept 2 mg"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Andrés Lasave",
+						"country": "arg",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "14:50",
+				"kind": 1,
+				"name": {
+					"es": "Llevando los esquemas de T&E a la práctica clínica: Compartiendo experiencias",
+					"en": "Bringing T&E schemes to clinical practice: Sharing experiences"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Rene Cano",
+						"country": "mex",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "15:10",
+				"kind": 1,
+				"name": {
+					"es": "Resultados del estudio Barómetro: Retos de vida real de la carga del tratamiento con antiangiogénicos",
+					"en": "Barometer Study Results: Real-Life Challenges of Antiangiogenic Treatment Burden"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Ingrid Pita",
+						"country": "mex",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "15:30",
+				"kind": 1,
+				"name": {
+					"es": "Coffe break",
+					"en": "Networking Coffe Break"
+				},
+				"speakers": []
+			},
+			{
+				"kind": 2,
+				"name": {
+					"es": "ESCAPE ROOM: DESAFÍOS CLÍNICOS EN PATOLOGÍAS MACULARES",
+					"en": "ESCAPE ROOM: CLINICAL CHALLENGES IN MACULAR PATHOLOGIES"
+				}
+			},
+			{
+				"hour": "16:00",
+				"kind": 1,
+				"name": {
+					"es": "Apertura",
+					"en": "Keynote Address"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Karen Palacios",
+						"country": "mex",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "16:15",
+				"kind": 1,
+				"name": {
+					"es": "¿Cómo tratar pacientes con maculopatías y no morir en el intento?",
+					"en": "How to treat patients with maculopathies and not die trying?"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Ingrid Pita",
+						"country": "mex",
+						"isBayer": 1
+					},
+					{
+						"name": "Dr. Rene Cano",
+						"country": "mex",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "17:15",
+				"kind": 1,
+				"name": {
+					"es": "Cierre",
+					"en": "Academic Closure: Key Day Conclusions"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Oscar Peñuela",
+						"country": "col",
+						"isBayer": 1
+					},
+					{
+						"hour": "19:00",
+						"kind": 1,
+						"name": {
+							"es": "Cena",
+							"en": "Networking Dinner"
+						},
+						"speakers": []
+					}
+				]
+			}
+		]
+	},
+	{
+		"day": {
+			"es": "Sábado 27 de julio",
+			"en": "Saturday, July 27th"
+		},
+		"schedule": [
+			{
+				"kind": 2,
+				"name": {
+					"es": "ADHERENCIA Y SOSTENIBILIDAD",
+					"en": "ADHERENCE AND SUSTAINABILITY"
+				}
+			},
+			{
+				"hour": "8:30",
+				"kind": 1,
+				"name": {
+					"es": "Apertura",
+					"en": "Keynote Address"
+				},
+				"speakers": [
+					{
+						"name": "Shirley Juliana Monsalve",
+						"country": "col",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "8:35",
+				"kind": 1,
+				"name": {
+					"es": "Impacto de los tratamientos de extensión en la calidad de vida del paciente",
+					"en": "Impact of extension treatments on patient quality of life"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Hugo Ocampo",
+						"country": "col",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "8:45",
+				"kind": 1,
+				"name": {
+					"es": "Modelos de atención en patologías maculares: Casos de éxito",
+					"en": "Care models in macular pathologies: Success cases"
+				},
+				"speakers": [
+					{
+						"name": "Dra. Hildegard María Piñeros",
+						"country": "col",
+						"isBayer": 0
+					},
+					{
+						"name": "Dr. Juan Manuel Jiménez",
+						"country": "mex",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "9:15",
+				"kind": 1,
+				"name": {
+					"es": "Sistemas de salud en America Latina: ¿Cómo crear valor desde la práctica médica en la diversidad de nuestra región?",
+					"en": "Health systems in Latin America: How to create value from medical practice in the diversity of our region?"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Ivan Darío Gonzalez",
+						"country": "col",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "9:55",
+				"kind": 1,
+				"name": {
+					"es": "Herramientas innovadoras que generan valor en el paciente",
+					"en": "Innovative tools that generate value for the patient"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Jorge Martínez",
+						"country": "col",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "10:25",
+				"kind": 1,
+				"name": {
+					"es": "Discusión de expertos",
+					"en": "Expert discussion"
+				},
+				"speakers": [
+					{
+						"name": "Dr. Jorge Martínez",
+						"country": "col",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "10:45",
+				"kind": 1,
+				"name": {
+					"es": "Coffe break",
+					"en": "Networking Coffe Break"
+				},
+				"speakers": []
+			},
+			{
+				"kind": 2,
+				"name": {
+					"es": "MEET THE EXPERT AFLIBERCEPT  8 mg",
+					"en": "MEET THE EXPERT AFLIBERCEPT  8 mg"
+				}
+			},
+			{
+				"hour": "11:15",
+				"kind": 1,
+				"name": {
+					"es": "Experiencia con Aflibercept 8 mg",
+					"en": "Experience with Aflibercept 8 mg"
+				},
+				"speakers": [
+					{
+						"name": "Dr. David Eichenbaum",
+						"country": "usa",
+						"isBayer": 0
+					}
+				]
+			},
+			{
+				"hour": "12:00",
+				"kind": 1,
+				"name": {
+					"es": "Cierre",
+					"en": "Closing Remarks"
+				},
+				"speakers": [
+					{
+						"name": "Silvia Alarcón",
+						"country": "col",
+						"isBayer": 1
+					}
+				]
+			},
+			{
+				"hour": "12:30",
+				"kind": 1,
+				"name": {
+					"es": "Almuerzo",
+					"en": "Networking Lunch"
+				},
+				"speakers": []
+			}
+		]
+	}
+]
