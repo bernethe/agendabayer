@@ -9,8 +9,12 @@ const Home = () => {
 		setLang(navigator.languages.includes('es') ? 'es' : 'en')
 	}, [])
 	
+	const toggleLang = () => setLang( lang === 'en' ? 'es' : 'en' );
 
 	return <>
+		<button className='block fixed right-4 top-4 bg-opacity-80 bg-white border border-blue p-2 rounded-sm' onClick={ toggleLang }>
+			<img className='w-4 h-4' src={ `/img/flag-${ lang === 'es' ? 'usa' : 'col' }.webp` } />
+		</button>
 		<header className="bg-header bg-center bg-no-repeat bg-cover aspect-[50/23] flex justify-center items-end pb-4">
 			<h1 className='font-bold italic text-3xl text-blue text-center'>{ lang === 'es' ? 'AGENDA ACADÉMICA' : 'ACADEMIC PROGRAM' }</h1>
 		</header>
@@ -34,7 +38,7 @@ const Home = () => {
 										<div className='md:w-3/12'>
 											{
 												item.speakers.map( (spk, inSpk) => <div key={inSpk} className='md:flex justify-star items-center'>
-													<img src={ `/img/flag-${spk.country}.webp` } alt='' className='w-4 h-4 mr-2' />
+													<img src={ `/img/flag-${spk.country}.webp` } alt='' className='inline-block w-4 h-4 mr-2' />
 													<span className='inline-block mr-2 w-4'>
 														{
 															spk.isBayer === 1 ? <img alt='' src='/img/bayer-flag-ico.webp' /> : <></>
