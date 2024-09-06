@@ -1,7 +1,128 @@
 ---
-import Home from '../components/pages/Home';
 import MainLayout from '../layouts/MainLayout.astro';
+import RowHeader from '../interface/RowHeader.astro';
+import RowRegular from '../interface/RowRegular.astro';
+import RowBreak from '../interface/RowBreak.astro';
+import BayerLogoSVG from '../svg/bayer.astro';
+import MainLogoEvent from '../assets/ris.svg';
 ---
 <MainLayout title='Agenda Bayer'>
-	<Home client:load />
+	<div class="flex relative">
+		<div class="w-1/2 md:w-1/4 mx-auto">
+			<img src={MainLogoEvent.src}>
+		</div>
+		<div class="absolute right-4 w-12 md:w-24">
+			<BayerLogoSVG />
+		</div>
+	</div>
+	<RowHeader>DOMINGO 8 DE SEPTIEMBRE</RowHeader>
+	<RowRegular hours="19:00" items={ [
+		{
+			title: 'Coctel de Bienvenida',
+			location: ''
+		}
+	] } />
+	<RowHeader>LUNES 9 DE SEPTIEMBRE</RowHeader>
+	<RowRegular hours="08:00 - 08:15" items={ [
+		{
+			title: 'Bienvenida',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowRegular hours="08:15 - 08:45" items={ [
+		{
+			title: 'Ecosistema',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowRegular hours="08:45 - 09:45" items={ [
+		{
+			title: 'Comunicación a pacientes',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowBreak hours="09:45 - 10:10" event="Break" />
+	<RowRegular hours="10:00 - 11:30" items={ [
+		{
+			title: 'Crecer y Posicionar un Servicio',
+			location: 'Sala Huascarán'
+		},
+		{
+			title: 'Calidad: Un factor determinante en Radiología',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowRegular hours="11:30 - 13:00" items={ [
+		{
+			title: 'Calidad: Un factor determinante en Radiología',
+			location: 'Sala Huascarán'
+		},
+		{
+			title: 'Crecer y Posicionar un Servicio',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowBreak hours="13:00 - 14:00" event="Almuerzo" />
+	<RowRegular hours="14:00 - 15:30" items={ [
+		{
+			title: 'Big Data y Analitica (30 equipos)',
+			location: 'Sala Alpamayo'
+		},
+		{
+			title: 'Hoy mejoro un proceso',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowRegular hours="15:30 - 17:00" items={ [
+		{
+			title: 'Hoy mejoro un proceso',
+			location: 'Sala Huascarán'
+		},
+		{
+			title: 'Big Data y Analitica (30 equipos)',
+			location: 'Sala Alpamayo'
+		}
+	] } />
+	<RowRegular hours="17:00 - 17:15" items={ [
+		{
+			title: 'Cierre',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowBreak hours="18:30" event="Cena - Huaca Pucllana" />
+	<RowHeader>MARTES 10 DE SEPTIEMBRE</RowHeader>
+	<RowRegular hours="09:00 - 09:15" items={ [
+		{
+			title: 'Bienvenida',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowRegular hours="09:15 - 10:45" items={ [
+		{
+			title: 'Soluciones Bayer (Inyector Stellant  con WFS)',
+			location: 'Sala Huascarán'
+		},
+		{
+			title: 'Presente y futuro de la Resonancia. (Inyección MRXp)',
+			location: 'Sala Alpamayo'
+		}
+	] } />
+	<RowBreak hours="10:45 - 11:00" event="Break" />
+	<RowRegular hours="11:00 - 12:30" items={ [
+		{
+			title: 'Presente y futuro de la Resonancia. (Inyección MRXp)',
+			location: 'Sala Alpamayo'
+		},
+		{
+			title: 'Soluciones Bayer (Inyector Stellant  con WFS)',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowRegular hours="12:30 - 13:00" items={ [
+		{
+			title: 'Cierre del evento',
+			location: 'Sala Huascarán'
+		}
+	] } />
+	<RowBreak hours="13:00" event="Almuerzo" />
 </MainLayout>

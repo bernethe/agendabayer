@@ -4,16 +4,15 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				header: "url('/src/assets/header-img.webp')",
+				mainbg: "url('/src/assets/main-bg.webp')",
 			},
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
 				white: '#fff',
 				black: '#000',
-				sky: '#69E1FD',
-				blue: '#00395C',
-				green: '#1B645C',
+				blue: '#002B4A',
+				sky: '#B8CAD8',
 				gray: {
 					DEFAULT: '#f3f4f6',
 					50: '#f9fafb',
