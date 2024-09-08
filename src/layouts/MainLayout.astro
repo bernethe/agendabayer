@@ -13,7 +13,9 @@ let {title} = Astro.props;
 	</head>
 	<body class='font-body min-h-screen bg-mainbg bg-cover bg-center'>
 		<div class="container mx-auto my-4 text-lg">
-			<slot />
+			<div class="lg:w-2/3 lg:mx-auto">
+				<slot />
+			</div>
 		</div>
 	</body>
 </html>
