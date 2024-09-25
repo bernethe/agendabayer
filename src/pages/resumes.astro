@@ -1,13 +1,17 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import BayerLogoSVG from '../svg/bayer.astro';
+import EventLogo from '../assets/logo-event.webp';
 ---
 <MainLayout title='Agenda Bayer'>
 	<div class="w-full h-[100dvh] flex flex-col justify-center items-center">
-		<div class="w-36">
-			<BayerLogoSVG />
+		<div class="w-24">
+			<BayerLogoSVG colorFill={true} />
 		</div>
-		<div class="text-2xl mt-4 text-center">
+		<div class="w-96 my-4">
+			<img src={EventLogo.src} alt="Agenda Bayer" />
+		</div>
+		<div class="text-2xl text-center">
 			Sitio en construcción, <br /> regresa pronto.
 		</div>
 	</div>
