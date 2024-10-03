@@ -5,13 +5,14 @@ export default {
 		extend: {
 			backgroundImage: {
 				mainbg: "url('/src/assets/main-bg.webp')",
+				indextop: "url('/src/assets/index-top.webp')"
 			},
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
 				white: '#fff',
 				black: '#000',
-				blue: '#002B4A',
+				blue: '#1A428A',
 				sky: '#B8CAD8',
 				gray: {
 					DEFAULT: '#f3f4f6',

@@ -1,0 +1,86 @@
+[
+	{
+		"id": 1,
+		"name": "Matthew Raymond Smith, MD, PhD",
+		"country": "usa",
+		"cvlist": [
+			"Médico de Duke University School of Medicine",
+			"Especialización en Med Interna Mass General Brigham (MGB) - Brigham and Women's Hospital (BWH) Main Campus",
+			"Oncólogo del Dana-Farber Cancer Institute (DFCI) - Longwood Medical Area (LMA)",
+			"Director, de Genitourinary Malignancies at Mass General Brigham (MGB) - Massachusetts General Hospital (MGH) Main Campus (Cancer Center - Claire and John Bertucci Center for Genitourinary Cancers)",
+			"Autor y Coautor de múltiples estudios en Cáncer de Próstata"
+		]
+	},
+	{
+		"id": 2,
+		"name": "Murilo de Almeida Luz, MD",
+		"country": "bra",
+		"cvlist": [
+			"Médico de la  Universidad Federal de Paraná (UFPR);",
+			"Especialista en  Cirugía General Universidad de São Paulo;",
+			"Cirugía Oncologica en Hospital Erasto Gaertner",
+			"Urología Oncología de McGill University – Montreal/Canada ",
+			"Cirurgía Minimamente Invasiva e Robotica em Urologia na McGill University – Montreal/CAN",
+			"Urooncólogo de Mount Sinai",
+			"Autor y Coautor de estudios Fase II y III en patologías Genitourinarias, incluidas el Cáncer de Próstata, Coautor PEACE III"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Iván José Bustillo Chams, MD",
+		"country": "col",
+		"cvlist": [
+			"Médico de Universidad del Norte con Honores, Barranquilla/Atlantico",
+			"Especialización en Medicina interna  Hospital of St. Raphael, adscrito a la Universidad de Yale",
+			"Oncología Médica en el Roswell Park Cancer Institute, de Buffalo, N.Y. ",
+			"Director  del área de Oncología y Hematología de la Clínica Portoazul en Barranquilla",
+			"Coautor de varios estudios Fase III de  Oncología en especial de Cáncer de Próstata y Pulmón"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Ray Antonio Manneh Kopp, MD, MS",
+		"country": "col",
+		"cvlist": [
+			"Médico de Duke University School of Medicine",
+			"Especializacion en Med Interna Mass General Brigham (MGB) - Brigham and Women's Hospital (BWH) Main Campus",
+			"Oncólogo del Dana-Farber Cancer Institute (DFCI) - Longwood Medical Area (LMA)",
+			"Director, de Genitourinary Malignancies at Mass General Brigham (MGB) - Massachusetts General Hospital (MGH) Main Campus (Cancer Center - Claire and John Bertucci Center for Genitourinary Cancers)",
+			"Autor y Coautor de nuevos artículos en Cáncer de Próstata"
+		]
+	},
+	{
+		"id": 5,
+		"name": "Laura Bernal Vaca, MD",
+		"country": "col",
+		"cvlist": [
+			"Médico de Universidad Pontifica Universidad Javeriana",
+			"Medicina Interna de la Pontifica Universidad Javeriana, Bogota/Colombia",
+			"Oncología del Instituto Nacional de Cancerología Bogotá/Colombia",
+			"Director de Oncología grupo Colsanitas , Universidad Clínica Colombia ",
+			"Coautor de varios estudios Fase II y III en Oncología y sus implicaciones con enfermedades asociadas como el COVID19"
+		]
+	},
+	{
+		"id": 6,
+		"name": "Nicolás Villareal Trujillo, MD",
+		"country": "col",
+		"cvlist": [
+			"Médico de Pontificia Universidad Javeriana, Bogota/Colombia",
+			"Urología de la Pontifica Universidad Javeriana, Bogota/Colombia ",
+			"Urología Oncologica de la Universidad Militar Nueva Granada Bogota/Colombia",
+			"Coautor de estudios de oncología prostática y descelaces funcionales en Cirugías reconstructivas de pene y Autor de varios reportes de casos sobre Cáncer de Próstata"
+		]
+	},
+	{
+		"id": 7,
+		"name": "Julian Gilberto Rojas Camacho, MD",
+		"country": "col",
+		"cvlist": [
+			"Médico Universidad del Rosario ",
+			"Médico Nuclear Hospital Universitario Bellvitge",
+			"Director de Medicina Nuclear en Fundación Santa Fe de Bogotá",
+			"Coautor de varios estudios Fase III incluidos el uso de PSMA en tumores renales de Células Claras"
+		]
+	}
+]

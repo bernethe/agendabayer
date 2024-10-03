@@ -1,0 +1,26 @@
+---
+let {hours, people, hasBg=false} = Astro.props;
+---
+<div class:list={
+		[
+			'my-4 mx-4 md:mx-0 py-2 px-4 md:px-8 md:flex md:flex-wrap',
+			{
+				'bg-blue bg-opacity-20': hasBg
+			}
+		]
+	}>
+	<div class="md:w-1/6 md:py-4">
+		{hours}
+	</div>
+	<div class="md:w-4/6 md:py-4">
+		<slot />
+	</div>
+	<div class="md:w-1/6 md:pb-2 md:py-4">
+		{
+			people.map( it => <div>
+				<img src={ it.country !== 'bay' ? `img/flag-${it.country}.webp` : 'img/bayer-flag-ico.webp' } alt={it.country} class="w-6 h-6 inline-block" />
+				{it.name}
+			</div> )
+		}
+	</div>
+</div>

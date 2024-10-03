@@ -1,0 +1,38 @@
+---
+import '@fontsource-variable/montserrat';
+import BayerLogoSVG from '../svg/bayer.astro';
+import EventLogo from '../assets/logo-event.webp';
+let {title} = Astro.props;
+---
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class='font-body min-h-screen bg-mainbg bg-center bg-cover text-white'>
+		<div class="container mx-auto p-4">
+			<header class="p-4">
+				<div class="flex justify-end">
+					<div class="w-16 mb-4 sm:mb-4">
+						<BayerLogoSVG isFillWhite />
+					</div>
+				</div>
+				<div class="flex justify-center">
+					<img
+						src={EventLogo.src}
+						alt="Reimagine - Transforming Prostate Cancer Treatment Horizons"
+						class="w-full max-w-96"
+					/>
+				</div>
+			</header>
+			<slot />
+			<p class="text-xs mt-4">
+				PP-NUB-CO-0562-1<br />
+				Material Técnico/Científico dirigido exclusivamente a Profesionales de la salud.  Si desea informar o reportar un evento adverso o un reclamo técnico de producto asociado a un producto Bayer, por favor, póngase en contacto con su médico o profesional de la salud, su autoridad sanitaria local y/o dirija sus comentarios en:  <a href="https://safetrack-public.bayer.com/" target="_blank">https://safetrack-public.bayer.com/</a>
+			</p>
+		</div>
+	</body>
+</html>
